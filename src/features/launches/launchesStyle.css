@@ -1,0 +1,22 @@
+section{
+    display: grid;
+    grid-gap: .5rem;
+}
+article{
+    background-color: aquamarine;
+    margin: 1rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+article:hover{
+    background-color: aqua;
+    transition: all 1s;
+}
+span{
+    color: rgb(70, 88, 6);
+}
+@media screen and (min-width:600px){
+    section{
+        grid-template-columns: auto auto;
+    }
+}
